@@ -1,0 +1,53 @@
+# ==================================
+# Pulse - Unified Environment Configuration
+# ==================================
+# Copy this file to .env and fill in your actual values
+# This single file works for all services (API, AI, Mobile)
+# ----- Elastic Cloud Configuration -----
+ELASTIC_CLOUD_ID=
+ELASTIC_API_KEY=
+ELASTIC_USERNAME=
+ELASTIC_PASSWORD=
+# Data stream/index names
+ELASTIC_INCIDENTS_INDEX=
+ELASTIC_DISPATCH_LOG_INDEX=
+ELASTIC_ANOMALIES_INDEX=
+# ----- Google Cloud / Vertex AI Configuration -----
+VERTEX_AI_PROJECT_ID=
+VERTEX_AI_LOCATION=
+# Path relative to project root
+GOOGLE_APPLICATION_CREDENTIALS=
+GOOGLE_MAPS_API_KEY=
+# Vertex AI Models
+VERTEX_AI_EMBEDDING_MODEL=
+VERTEX_AI_LLM_MODEL=
+# ----- Pulse API Configuration -----
+API_PORT=
+API_SECRET_KEY=
+API_BASE_URL=
+# ----- Pulse AI Service Configuration -----
+AI_SERVICE_PORT=
+FLASK_SECRET_KEY=
+AI_SERVICE_BASE_URL=
+# ----- Mobile App Configuration -----
+# For physical device testing, use your computer's IP address
+# Find it: Mac: ipconfig getifaddr en0 | Windows: ipconfig
+PULSE_API_ENDPOINT=
+PULSE_API_KEY=
+# ----- Web Search Configuration -----
+# Get free key from https://serpapi.com
+SERPAPI_KEY=
+# ----- Twilio Configuration (for SOS/Emergency SMS) -----
+TWILIO_ACCOUNT_SID=
+TWILIO_AUTH_TOKEN=
+TWILIO_FROM_NUMBER=
+DEMO_PHONE_NUMBER=
+# ----- Feature Flags -----
+ENABLE_AI_DISPATCH=
+ENABLE_ML_ANOMALY_DETECTION=
+ENABLE_VECTOR_SEARCH=
+ENABLE_WEB_SEARCH_HELPLINES=
+# ----- Development -----
+NODE_ENV=
+DEBUG=
+LOG_LEVEL=

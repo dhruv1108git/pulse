@@ -1,0 +1,6 @@
+pluginManagement { includeBuild("/Users/dhruvrathi/Downloads/PROJECTS/pulse/pulse-mobile/node_modules/@react-native/gradle-plugin") }
+plugins { id("com.facebook.react.settings") }
+extensions.configure(com.facebook.react.ReactSettingsExtension){ ex -> ex.autolinkLibrariesFromCommand() }
+rootProject.name = 'PulseMobileRN'
+include ':app'
+includeBuild('/Users/dhruvrathi/Downloads/PROJECTS/pulse/pulse-mobile/node_modules/@react-native/gradle-plugin')

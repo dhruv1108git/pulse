@@ -1,0 +1,34 @@
+# Flask web framework
+Flask==3.0.0
+Flask-CORS==4.0.0
+
+# Elastic
+elasticsearch==8.11.0
+
+# Google Cloud - includes vertexai module
+google-cloud-aiplatform==1.73.0
+google-auth==2.25.2
+
+# Environment variables
+python-dotenv==1.0.0
+
+# Utilities
+requests==2.31.0
+python-json-logger==2.0.7
+
+# SMS/Communication
+twilio==8.11.0
+
+# Web Search
+google-search-results==2.4.2
+
+# Development
+pytest==7.4.3
+black==23.12.1
+flake8==7.0.0
+
+uvicorn
+websockets
+gunicorn
+
+

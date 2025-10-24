@@ -1,0 +1,46 @@
+{
+  "name": "pulse",
+  "version": "1.0.0",
+  "description": "AI-Powered Community Emergency Intelligence Network",
+  "private": true,
+  "scripts": {
+    "mobile": "cd pulse-mobile && npx react-native start",
+    "mobile:android": "cd pulse-mobile && npx react-native run-android",
+    "mobile:build": "cd pulse-mobile/android && ./gradlew assembleDebug",
+    "mobile:build-release": "cd pulse-mobile/android && ./gradlew assembleRelease",
+    "mobile:install": "npm run mobile:build && adb install -r pulse-mobile/android/app/build/outputs/apk/debug/app-debug.apk",
+    "web:install": "cd pulse-web && npm install",
+    "web:dev": "cd pulse-web && npm run dev",
+    "web:build": "cd pulse-web && npm run build",
+    "web:serve": "cd pulse-web && npm run serve",
+    "ai-service": "cd pulse-ai-service && python app/main.py",
+    "test": "npx tsx scripts/test-all-endpoints.ts",
+    "verify": "npx tsx scripts/verify-setup.ts",
+    "setup-indices": "npx tsx scripts/setup-elastic-indices.ts && npx tsx scripts/setup-helplines-cache.ts",
+    "clean": "rm -rf node_modules pulse-mobile/node_modules pulse-web/node_modules pulse-web/dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-org/pulse"
+  },
+  "keywords": [
+    "emergency",
+    "incident-reporting",
+    "ble-mesh",
+    "elastic",
+    "vertex-ai",
+    "offline-first"
+  ],
+  "author": "Pulse Team",
+  "license": "MIT",
+  "dependencies": {
+    "@elastic/elasticsearch": "^8.11.0",
+    "dotenv": "^16.3.1",
+    "node-fetch": "^3.3.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.0",
+    "tsx": "^4.20.6",
+    "typescript": "^5.8.3"
+  }
+}
