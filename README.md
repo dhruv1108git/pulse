@@ -6,6 +6,11 @@
 
 ---
 
+## 🎬 Product Walkthrough
+[![Demo](https://img.youtube.com/vi/z1mjh4dASW4/0.jpg)](https://youtu.be/z1mjh4dASW4)
+
+---
+
 ## 🎯 What is Pulse?
 
 Pulse is an intelligent emergency response platform combining:
@@ -360,5 +365,23 @@ pulse/
 ---
 
 ## 📄 License
-
 MIT License
+
+---
+
+## 🖼️ UI Preview
+
+<img width="300" src="https://github.com/user-attachments/assets/ae5aa653-51da-4457-8df5-bb17fb9ae575" >
+<img width="300" src="https://github.com/user-attachments/assets/10d9f2b8-9c10-4533-841e-9aa3183c2f30" >
+<img width="300" src="https://github.com/user-attachments/assets/b7fd225c-eea7-4030-942a-cc9cd4548b97" >
+<img width="300" src="https://github.com/user-attachments/assets/389c0c37-2d63-4e34-be12-d83aa40c4d4d" >
+<img width="300" src="https://github.com/user-attachments/assets/29816b04-b9c6-4d30-9bc6-a99c5c451cb2" >
+<img width="300" src="https://github.com/user-attachments/assets/e0652f45-bf21-4c88-98ce-cba37bb33010" >
+<img width="300" src="https://github.com/user-attachments/assets/2184c59e-16a3-40c0-bb98-e83146b7e080" />
+<img width="3024" height="1964" alt="tg_image_2012403607" src="https://github.com/user-attachments/assets/f7e6354b-1ecd-449f-aa8b-7322a6cfeeff" />
+<img width="3024" height="1964" alt="tg_image_2717638644" src="https://github.com/user-attachments/assets/b104233d-fc29-4b4b-abc0-43b182c223cc" />
+<img width="3024" height="1964" alt="tg_image_2271904103" src="https://github.com/user-attachments/assets/35dc8ee7-ebce-4ac0-974d-c7f7e3256563" />
+<img width="3024" height="1964" alt="tg_image_4053223420" src="https://github.com/user-attachments/assets/21f14ba7-194e-4c80-8051-7e7b8e036b54" />
+<img width="3024" height="1964" alt="tg_image_4137952672" src="https://github.com/user-attachments/assets/6d64133f-ca29-4852-b45e-5c40cf333b7e" />
+<img width="3024" height="1964" alt="tg_image_2954650171" src="https://github.com/user-attachments/assets/0a723c2a-5d3c-4588-afef-26cafa829a2b" />
+
